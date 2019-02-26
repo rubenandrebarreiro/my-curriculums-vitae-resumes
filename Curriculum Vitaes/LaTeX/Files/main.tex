@@ -1,0 +1,594 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.1.4, 27 July 2018) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you want to use \orcid or the
+%% academicons icons, add "academicons"
+%% to the \documentclass options.
+%% Then compile with XeLaTeX or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper,academicons]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages.
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols.
+%% When using the "academicons" option,
+%% Compile with LuaLaTeX for best results. If you
+%% want to use XeLaTeX, you may need to install
+%% Academicons.ttf in your operating system's font %% folder.
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1cm,bottom=1cm}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{hyperref}
+
+% If using xelatex or lualatex:
+\setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{VividRed}{HTML}{7e2635}
+\definecolor{DarkRed}{HTML}{a5402d}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividRed}
+\colorlet{accent}{DarkRed}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{\href{https://rubenandrebarreiro.github.io/}{Rúben André Letra Barreiro}}
+\tagline{Computer Science Engineer \& IT/IS Programmer/Technician}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+\photo{4.85cm}{photo}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \academicemail{\hspace{0.1em}\underline{Academic E-mail @ \href{https://www.fct.unl.pt/}{FCT NOVA} \#1}: \href{mailto:r.barreiro@campus.fct.unl.pt}{r.barreiro@campus.fct.unl.pt}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \academicemail{\hspace{0.1em}\underline{Academic E-mail @  \href{https://sigarra.up.pt/feup/pt/web_page.inicial}{FEUP} \#1}:  \href{mailto:up201808917@fe.up.pt}{up201808917@fe.up.pt}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \academicmail{\hspace{0.1em}\underline{Academic E-mail @  \href{https://sigarra.up.pt/feup/pt/web_page.inicial}{FEUP} \#2}: \href{mailto:up201808917@g.uporto.pt}{up201808917@g.uporto.pt}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \divider
+  
+  \personalemail{\hspace{0.1em}\underline{Personal E-mail \#1}: \href{mailto:ruben.barreiro.92@gmail.com}{ruben.barreiro.92@gmail.com}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \personalemail{\hspace{0.1em}\underline{Personal E-mail \#2}: \href{mailto:ruben.barreiro.92@outlook.com}{ruben.barreiro.92@outlook.com}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \personalemail{\hspace{0.1em}\underline{Personal E-mail \#3}: \href{mailto:rubenbarreiro92@yahoo.com}{rubenbarreiro92@yahoo.com}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \divider
+  
+  \phone{\hspace{0.2em}\underline{Mobile Number #1}: +351 911 097 424}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \phone{\hspace{0.2em}\underline{Mobile Number #2}: +351 911 097 424}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \phone{\hspace{0.2em}\underline{Mobile Number #3}: +351 911 097 424}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \divider
+  
+  \birthday{\underline{Birthday}: November 19, 1992}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \home{\underline{Hometown}: \href{https://goo.gl/maps/Yp9CzBonpSA2}{Avenidas Novas, Lisbon, PT (São Sebastião da Pedreira)}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \location{\hspace{0.4em}\underline{Current Location}: \href{https://goo.gl/maps/arjmsJq5So62}{Almada, Setúbal, PT (Monte de Caparica)}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \divider
+  
+  \facebook{\hspace{0.4em}\underline{Facebook}: \href{https://www.facebook.com/rubenandrebarreiro/}{https://www.facebook.com/rubenandrebarreiro/}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \instagram{\hspace{0.1em}\underline{Instagram}: \href{https://www.instagram.com/ruben.badnewz/}{https://www.instagram.com/ruben.badnewz/}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \twitter{\hspace{0.1em}\underline{Twitter}: \href{https://twitter.com/ruben_badnewz/}{https://twitter.com/ruben_badnewz/}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \linkedin{\hspace{0.1em}\underline{LinkedIn}: \href{https://www.linkedin.com/in/rubenandrebarreiro/}{https://www.linkedin.com/in/rubenandrebarreiro/}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \homepage{\underline{GitHub's Porfolio/Personal Blog}: \href{https://rubenandrebarreiro.github.io/}{https://rubenandrebarreiro.github.io/}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \divider
+  
+  \wordpress{\underline{WordPress' Personal Page/Blog}: \href{https://badnewz-lifestyle.com/}{https://badnewz-lifestyle.com/}} \\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \behance{\underline{Behance}: \href{https://www.behance.net/ruben_badnewz/}{https://www.behance.net/ruben\_badnewz/}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \divider
+  
+  \github{\hspace{0.1em}\underline{GitHub}: \href{https://github.com/rubenandrebarreiro/}{https://github.com/rubenandrebarreiro/}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \gitlab{\underline{GitLab}: \href{https://gitlab.com/rubenandrebarreiro/}{https://gitlab.com/rubenandrebarreiro/}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \bitbucket{\hspace{0.2em}\underline{Atlassian Bitbucket}: \href{https://bitbucket.com/rubenandrebarreiro/}{https://bitbucket.com/rubenandrebarreiro/}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \divider
+  
+  \mathoverflow{\underline{MathOverflow}: \href{https://mathoverflow.net/users/134256/rúben-andré-barreiro/}{https://mathoverflow.net/users/134256/rúben-andré-barreiro/}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \stackoverflow{\hspace{0.1em}\underline{StackOverflow}: \href{https://stackoverflow.com/story/rubenandrebarreiro/}{https://stackoverflow.com/story/rubenandrebarreiro/}}
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \divider
+  
+  \academia{\underline{Academia}: \href{https://utaustinportugal.academia.edu/rubenandrebarreiro/}{https://utaustinportugal.academia.edu/rubenandrebarreiro/}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \mendeley{\underline{Mendeley}: \href{https://www.mendeley.com/profiles/ruben-andre-barreiro/}{https://www.mendeley.com/profiles/ruben-andre-barreiro/}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \orcid{\underline{ORCiD}: \href{https://orcid.org/0000-0003-2572-8949}{https://orcid.org/0000-0003-2572-8949}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \publons{\underline{Publons}: \href{https://publons.com/researcher/1670842/ruben-andre-barreiro/}{https://publons.com/researcher/1670842/ruben-andre-barreiro/}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \researchgate{\underline{ResearchGate}: \href{https://www.researchgate.net/profile/Ruben\_Barreiro/}{https://www.researchgate.net/profile/Ruben\_Barreiro/}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+  \researcherid{\underline{ResearcherID}: \href{http://www.researcherid.com/rid/A-6299-2019}{http://www.researcherid.com/rid/A-6299-2019}}\\
+  
+  \vspace{1mm} % 1mm vertical space
+  
+   % I'm just making this up though.
+   % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+
+  \divider
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+\cvsection[page1sidebar]{\faHandPeaceO\hspace{0.5em}Most Proud of}
+
+\cvachievement{\faTrophy}{Courage I had}{I always work to take a sinking ship and try to make it float}
+
+\divider
+
+\cvachievement{\faHeartbeat}{Persistence \& Loyalty}{I always have shown my willingness and attitude, even in front of hard moments in life and work}
+
+\divider
+
+\cvachievement{\faLineChart}{Constant Improvement}{I'm always obsessed in improve myself and get better than I was before}
+
+\divider
+
+\cvachievement{\faMale}{Inspiring men in tech}{I'm a hard-working and passionate Computer Science and Engineering's student with huge dreams}
+
+\divider
+
+\clearpage
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page2sidebar]{\faSuitcase\hspace{0.5em}Professional Experience}
+
+\cvevent{App Designer \& Developer}{\href{https://mil.up.pt/}{U.Porto Media Innovation Labs}}{September 2018 -- December 2018}{\hspace{0.3em}\href{https://goo.gl/maps/dciC8RH84QB2}{Porto Center, Porto, PT}}{\href{https://mil.up.pt/}{https://mil.up.pt/}\hspace{2em} \faGlobe\hspace{0.5em}\href{https://sigarra.up.pt/feup/pt/web_page.inicial}{https://sigarra.up.pt/feup/pt/web\_page.inicial}}{}{\href{https://www.bright.pt/}{https://www.bright.pt/}\hspace{2em} \faGlobe\hspace{0.5em}\href{http://www.acreditar.org.pt/}{http://www.acreditar.org.pt/}}{}{}
+\begin{itemize}
+\item Designing and development of the interface of the "Everyone Is a Hero" app for mobile devices' \href{https://www.android.com/}{Android} and \href{https://www.apple.com/ios/ios-12/}{iOS} operative systems
+\item Designing of the mobile app in \href{https://www.adobe.com/products/illustrator.html}{Adobe Illustrator CC} and \href{https://www.adobe.com/products/photoshop.html}{Adobe Photoshop CC}
+\item Development of the mobile app in \href{https://unity3d.com/}{Unity 3D}, \href{https://en.wikipedia.org/wiki/C_Sharp_(programming_language)}{C\#}, \href{https://en.wikipedia.org/wiki/SQL}{SQL} and \href{https://www.json.org/}{JSON}
+\item The "Everyone Is a Hero" app was developed with the collaboration of \href{https://mil.up.pt/}{U.Porto Media Innovation Labs}, \href{https://sigarra.up.pt/feup/pt/web_page.inicial}{Faculty of Engineering of University of Porto (FEUP)}, \href{https://www.bright.pt/}{Bright Digital} and \href{http://www.acreditar.org.pt/}{Acreditar}
+\item The app aims to offer interactive support and information to families, educators and volunteers of children who suffer of cancer diseases
+\item Other goal of the app, it's to, in a near future, be linked to the video game app for these same children, called \href{https://www.publico.pt/2018/05/22/p3/noticia/o-mundo-e-muito-pequeno-para-hernani-o-investigador-que-quer-descodificar-a-saude-1834877}{"Hope"}, that's being also developed by \href{https://www.bright.pt/}{Bright Digital}
+\item Presentation in the \href{http://talkabit.org/}{TalkABit 2019} conference
+\end{itemize}
+
+\divider
+
+\cvevent{Scientific Research \& Development Internship}{\href{https://lsts.fe.up.pt/}{LSTS (Laboratório de Sistemas e Tecnologia Subaquática / Underwater Systems and Technology Laboratory)}}{October 2018 -- November 2018}{\href{https://goo.gl/maps/sAJPY6YKCpz}{\hspace{0.2em}Paranhos/São João do Porto, Porto, PT}}{\href{https://lsts.fe.up.pt/}{https://lsts.fe.up.pt/}\hspace{2em} \faGlobe\hspace{0.5em}\href{https://sigarra.up.pt/feup/pt/web_page.inicial}{https://sigarra.up.pt/feup/pt/web\_page.inicial}}{}{}{}{}
+\begin{itemize}
+\item Scientific Research and Development Internship in \href{https://lsts.fe.up.pt/our-work/projects}{Endurance Project} in \href{https://lsts.fe.up.pt/}{LSTS (Laboratório de Sistemas e Tecnologia Subaquática / Underwater Systems and Technology Laboratory)} at \href{https://sigarra.up.pt/feup/pt/web_page.inicial}{Faculty of Engineering of University of Porto (FEUP)}
+\item Research and Development Project based in the context of remote control of \href{https://en.wikipedia.org/wiki/Autonomous_underwater_vehicle/}{AUVs (Autonomous Underwater Vehicles)} with a continuous operation duration of more than 48 hours, using the \href{https://lsts.fe.up.pt/toolchain/ripples/}{RIPPLES} and \href{https://lsts.fe.up.pt/toolchain/neptus/}{NEPTUS} frameworks/tools, developed by \href{https://lsts.fe.up.pt/}{LSTS (Laboratório de Sistemas e Tecnologia Subaquática / Underwater Systems and Technology Laboratory)}
+\item Development of some features to \href{https://lsts.fe.up.pt/toolchain/ripples/}{RIPPLES} and \href{https://lsts.fe.up.pt/toolchain/neptus/}{NEPTUS} frameworks/tools, using \href{https://www.java.com/}{Java} and \href{http://spring.io/projects/spring-boot}{Spring Boot} framework
+\end{itemize}
+
+\divider
+
+\clearpage
+
+\cvsection[page3sidebar]{\faSuitcase\hspace{0.5em}Professional Experience}
+
+\cvevent{Scientific Researcher \& Developer}{\href{http://nova-lincs.di.fct.unl.pt/}{NOVA LINCS (Informatics' Labs at Faculty of Sciences and Technology, New University of Lisbon - Caparica Campus)} and \href{http://www.cmuportugal.org/}{Carnegie Mellon University Portugal Program}}{February 2017 -- January 2018}{\hspace{0.2em}\href{https://goo.gl/maps/7guF5719yJo}{Monte de Caparica, Setúbal, PT}}
+{\href{http://hyrax.dcc.fc.up.pt/}{http://hyrax.dcc.fc.up.pt/}}
+{\href{http://nova-lincs.di.fct.unl.pt/}{http://nova-lincs.di.fct.unl.pt/}\hspace{2em} \faGlobe\hspace{0.5em}\href{https://www.fct.unl.pt/}{https://www.fct.unl.pt/}}
+{\href{https://cracs.fc.up.pt/}{https://cracs.fc.up.pt/}\hspace{2em} \faGlobe\hspace{0.5em}\href{https://www.fc.up.pt/fcup/index.php}{https://www.fc.up.pt/fcup/index.php}}
+{\href{http://www.cmuportugal.org/}{http://www.cmuportugal.org/}\hspace{2em} \faGlobe\hspace{0.5em}\href{https://www.cmu.edu/}{https://www.cmu.edu/}}{}
+\begin{itemize}
+\item Scientific Research and Development in \href{http://hyrax.dcc.fc.up.pt/}{Hyrax Project} in \href{http://nova-lincs.di.fct.unl.pt/}{NOVA-LINCS' Labs} at \href{https://www.fct.unl.pt/}{Faculty of Sciences and Technology, New University of Lisbon - Caparica Campus (FCT NOVA | FCT-UNL)}
+\item Research and Development Project based in the context of \href{https://en.wikipedia.org/wiki/Edge_computing/}{Edge Computing}
+\item Developing work in the theme "A producer/consumer work queue eventually consistent in \href{https://www.android.com/}{Android}",
+under the supervision of \href{https://docentes.fct.unl.pt/p161/}{Prof. Hervé Miguel Paulino}
+\item Developing of a prototype in \href{https://www.android.com/}{Android} and \href{https://www.java.com/}{Java}, called \href{https://rubenandrebarreiro.github.io/research-development/hyrax-dice/presentation/hyrax-dice-presentation.pdf}{Hyrax - DiCE (Distributed Collaborative Computing at the Edge)}
+\item Final Approval Grade: 17 of 20
+\end{itemize}
+
+\divider
+
+\cvevent{Waiter}{\href{http://www.delmarecafe.com/pt-pt}{Delmare Café \& Beach Club}}{June 2016 -- August 2016}{\hspace{0.2em}\href{https://goo.gl/maps/JwL5mMCe7sP2}{Costa da Caparica, Setúbal, PT}}{\href{http://www.delmarecafe.com/pt-pt}{http://www.delmarecafe.com/pt-pt}}{}{}{}{}
+\begin{itemize}
+\item Wait service
+\item Organization of events (Weddings, Bachelor parties, Birthday parties, Night parties \& Sunset parties)
+\item Bar service
+\item Cleaning service
+\end{itemize}
+
+\divider
+
+\cvevent{Information \& Technology Support Technician}{\href{https://www.remax.pt/}{RE/MAX Portugal} and \href{https://www.maxfinance.pt/}{MaxFinance Portugal} (RE/MAX Central and MaxFinance Central Offices)}{November 2012 -- March 2013}{\hspace{0.2em}\href{https://goo.gl/maps/Yc9FLQU81DH2}{Rato, Lisbon, PT}}{\href{https://www.remax.pt/}{https://www.remax.pt/}\hspace{2em} \faGlobe\hspace{0.5em}\href{https://www.maxfinance.pt/}{https://www.maxfinance.pt/}}{}{}{}{}
+\begin{itemize}
+\item Enterprise's computers maintenance
+\item Marketing (Production of brochures \& leaflets)
+\item Enterprise's social networks management (\href{https://www.facebook.com/}{Facebook} page management of the company) 
+\item Emailing (Sending e-mails \& info-mails to company's contacts)
+\end{itemize}
+
+\divider
+
+\cvevent{Professional Intern\textbackslash Trainee}{\href{https://www.fnac.pt/}{Fnac Portugal} (Fnac Chiado Store)}{November 2011 -- January 2012}{\hspace{0.2em}\href{https://goo.gl/maps/PU1i5CncP8H2}{Baixa-Chiado, Lisbon, PT}}{\href{https://www.fnac.pt/}{https://www.fnac.pt/}}{}{}{}{}
+
+\begin{itemize}
+\item Retail and stock replacement (Sections of Computers, Software, GPS \& Mobile Phones)
+\item Event photographer - "Encontro o Natal ao Anoitecer"
+\item Final Approval Grade: 17 of 20
+\end{itemize}
+
+\divider
+
+\clearpage
+
+\cvsection[page4sidebar]{\faGraduationCap\hspace{0.5em}Academic Education}
+
+\cvacademiceducation{MSc.\ in Computer Science and Engineering}{Faculty of Sciences and Technology of New University of Lisbon \\(FCT NOVA | FCT-UNL)}{January 2019 -- Present}{\href{https://goo.gl/maps/GLEW574UWTG2}{Monte de Caparica, Setúbal, PT}}{\href{https://www.fct.unl.pt/}{https://www.fct.unl.pt/}}{Final Global Points Average: }{}{}
+{\small\faBook\hspace{0.5em}Core Courses/Subjects Covered:\begin{itemize}
+
+%\item \hspace{0.5em} Object Oriented Programming
+\end{itemize}
+}
+
+\divider
+
+{\footnotesize You can view some of my academic and personal projects\\
+by clicking in the links below:\\
+- \href{https://github.com/rubenandrebarreiro/}{https://github.com/rubenandrebarreiro/}\\
+- \href{https://gitlab.com/rubenandrebarreiro/}{https://gitlab.com/rubenandrebarreiro/}\\
+- \href{https://bitbucket.org/rubenandrebarreiro/}{https://bitbucket.org/rubenandrebarreiro/}\\
+- \href{https://rubenandrebarreiro.github.io/}{https://rubenandrebarreiro.github.io/}\\
+}
+
+\divider
+
+\clearpage
+
+\cvsection[page5sidebar]{\faGraduationCap\hspace{0.5em}Academic Education}
+
+\cvacademiceducation{BSc.\ in Computer Science and Engineering}{Faculty of Sciences and Technology of New University of Lisbon \\(FCT NOVA | FCT-UNL)}{September 2013 -- June 2018}{\href{https://goo.gl/maps/GLEW574UWTG2}{Monte de Caparica, Setúbal, PT}}{\href{https://www.fct.unl.pt/}{https://www.fct.unl.pt/}}{Final Global Points Average: 15 of 20}{Scientific Research at \href{http://nova-lincs.di.fct.unl.pt/}{NOVA LINCS' Labs}}{}
+{\small\faBook\hspace{0.5em}Core Courses/Subjects Covered:\begin{itemize}
+
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Calculus}{Calculus \& Mathematics Analysis}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Algebra}{Algebra}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Algebraic_geometry}{Algebraic Geometry}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Digital_electronics}{Logic \& Digital Systems}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Discrete_mathematics}{Discrete Mathematics}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Low-level_programming_language}{Low-level Programming}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Object-oriented_programming}{Object Oriented Programming}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Physics}{Physics}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Logic_programming}{Logic Programming}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Operating_system}{Operative Systems and Architectures}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Data_structure}{Data Structures}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Probability}{Probability Calculus}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Statistics}{Statistics}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Database}{Databases}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Functional_programming}{Functional Programming}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Computer_network}{Computer Networks}
+\href{https://en.wikipedia.org/wiki/Internet_Protocol}{Internet \& Network Protocols}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Computer_graphics}{Computer Graphics and 3D Interfaces}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Artificial_intelligence}{Artificial Intelligence}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Search_algorithm}{Searching Algorithms}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Genetic_algorithm}{Genetic Algorithms}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Neural_network}{Neural Networks}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Modeling_language}{Modelling of Programming Languages}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Graph_theory}{Graphs Theory \& Algorithms}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Linear_programming}{Linear Programming}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Distributed_computing}{Distributed Computing \& Systems}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Internet_security}{Basic Notions of Internet Security}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Multithreading_(computer_architecture)}{Multi-Threading}
+\end{itemize}
+}\\
+
+\divider
+
+{\footnotesize You can view some of my academic and personal projects\\
+by clicking the links below:\\
+- \href{https://github.com/rubenandrebarreiro/}{https://github.com/rubenandrebarreiro/}\\
+- \href{https://gitlab.com/rubenandrebarreiro/}{https://gitlab.com/rubenandrebarreiro/}\\
+- \href{https://bitbucket.org/rubenandrebarreiro/}{https://bitbucket.org/rubenandrebarreiro/}\\
+- \href{https://rubenandrebarreiro.github.io/}{https://rubenandrebarreiro.github.io/}\\
+}
+
+\divider
+
+\clearpage
+
+\cvsection[page6sidebar]{\faInstitution\hspace{0.5em}High School Education}
+
+\cvhighschooleducation{Professional Course of Technician of Computer Management and Programming}{\href{https://www.aecaparica.pt/escolas/escolas/escola-secundaria-do-monte-da-caparica/}{High School of Monte de Caparica}}{September 2009 -- July 2012}{\href{https://goo.gl/maps/SWkeEYMuKXT2}{Monte de Caparica, Setúbal, PT}}{https://www.aecaparica.pt/}{Final Global Points Average: 14 of 20}{Internship at Fnac Portugal (Fnac Chiado Store)}{Final Project - "Scholar Auctions' Website"}
+{\small\faBook\hspace{0.5em}Core Courses/Subjects Covered:
+
+\begin{itemize}
+
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Operating_system}{Operative Systems and Architectures}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Database}{Databases}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Computer_network}{Basic Notions of Computer Networks}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Web_design}{Web Design}
+\item \hspace{0.5em} \href{https://en.wikipedia.org/wiki/Form_(HTML)}{Web Forms and Users' Data Validations}
+
+\end{itemize}
+}
+
+\divider
+
+{\footnotesize You can view some of my academic and personal projects\\
+by clicking on the links below:\\
+- \href{https://github.com/rubenandrebarreiro/}{https://github.com/rubenandrebarreiro/}\\
+- \href{https://gitlab.com/rubenandrebarreiro/}{https://gitlab.com/rubenandrebarreiro/}\\
+- \href{https://bitbucket.org/rubenandrebarreiro/}{https://bitbucket.org/rubenandrebarreiro/}\\
+- \href{https://rubenandrebarreiro.github.io/}{https://rubenandrebarreiro.github.io/}\\
+}
+
+\divider
+
+\cvsection{\faGroup\hspace{0.5em}Referees}
+
+% \cvref{name}{email}{mailing address}
+\cvref{\href{http://ferrari.dmat.fct.unl.pt/personal/alcustodio/}{Prof.\ Ana Luísa Custódio} (\href{https://www.fct.unl.pt/}{FCT NOVA | FCT-UNL})}{\href{mailto:alcustodio@fct.unl.pt}{alcustodio@fct.unl.pt}}
+{Dept. Mathematics, Ed. VII - Office 54\\\href{https://www.fct.unl.pt/}{Faculty of Sciences and Technology,\\New University of Lisbon},\\Caparica Campus, Setúbal, PT\\2829-516 - Caparica, Portugal}
+
+\divider
+
+\cvref{\href{https://docentes.fct.unl.pt/p161/}{Prof.\ Hervé Miguel Paulino} (\href{https://www.fct.unl.pt/}{FCT NOVA | FCT-UNL})}{\href{mailto:herve.paulino@fct.unl.pt}{herve.paulino@fct.unl.pt}}
+{Dept. Informatics, Ed. II - Office P2/16\\\href{https://www.fct.unl.pt/}{Faculty of Sciences and Technology,\\New University of Lisbon},\\Caparica Campus, Setúbal, PT\\2829-516 - Caparica, Portugal}
+
+\divider
+
+\cvref{\href{http://asc.di.fct.unl.pt/~pm/}{Prof.\ Pedro Duarte Medeiros} (\href{https://www.fct.unl.pt/}{FCT NOVA | FCT-UNL})}{\href{mailto:pdm@fct.unl.pt}{pdm@fct.unl.pt}}
+{Dept. Informatics, Ed. II - Office P3/9\\\href{https://www.fct.unl.pt/}{Faculty of Sciences and Technology,\\New University of Lisbon},\\Caparica Campus, Setúbal, PT\\2829-516 - Caparica, Portugal}
+
+\divider
+
+\clearpage
+
+\cvsection[page7sidebar]{\faChild\hspace{0.5em}Volunteering}
+
+\cvevent{Civil Rights and Social Action's Volunteer}{\href{http://www.lifeshakers.blogspot.com/}{Lifeshaker Associação/Upgrading Participation E6G} (Civil Rights and Social Action Initiative from Municipal Council of Almada)}{January 2018 -- March 2018}{\hspace{0.2em}\href{https://goo.gl/maps/v82Drdy2TQL2}{Monte de Caparica, Setúbal, PT}}{\href{http://www.lifeshakers.blogspot.com/}{http://www.lifeshakers.blogspot.com/}}{}{}{}{}
+\begin{itemize}
+\item Participation and volunteering in the following social activities: Caparica Photovoice (Photography at Neighborhood), ABC do Judo (Judo's Training Classes), Diz Que Sim (Dancing's Classes), 123 Capacitar (Children's Didactive Games), De Mim Para Nós (Volunteering Services), AJA (Volunteering Services), Up Web (Design \& Illustration), Corta o Preconceito (Videos' Productions), Micro Observatório Juvenil (Conversations, Interviews \& Talks) and English Explanations (Preparatory School - 5th \& 6th Year)
+\end{itemize}
+
+\divider
+
+\cvevent{Education's Volunteer}{\href{https://www.expo.fct.unl.pt/}{ExpoFCT} 2016 (Education Annual Event at \href{https://www.fct.unl.pt/}{Faculty of Sciences and Technology, New University of Lisbon - Caparica Campus)}}{April 2016 -- April 2016}{\hspace{0.2em}\href{https://goo.gl/maps/GLEW574UWTG2}{Monte de Caparica, Setúbal, PT}}{\href{https://www.expo.fct.unl.pt/}{https://www.expo.fct.unl.pt/}}{}{}{}{}
+\begin{itemize}
+\item The \href{https://www.expo.fct.unl.pt/}{ExpoFCT} it's an annual event of presentation of the College and its Educational Offer, that have the main goal to facilitate the choice of the superior formation to pre-university young people, through demonstrations/activities in the following Science and Engineering areas: Cell \& Molecular Biology, Biochemistry, Conservation-Restoration, Mathematics, Applied Chemistry, Environmental Eng., Biomedical Eng., Civil Eng., Electrical \& Computer Eng., Physics Eng., Geological Eng., Micro \& Nanotechnologies Eng. and Chemical \& Biochemical Eng.
+\item Volunteering in the following activities, at \href{https://www.expo.fct.unl.pt/}{ExpoFCT} 2016: Fiat Lux - À boleia dos fotões! and Pong
+\end{itemize}
+
+\divider
+
+\cvevent{Education's Volunteer}{\href{https://www.almadaforma.net/}{AlmadaForma} (Education Initiative from \href{https://www.aecaparica.pt/escolas/escolas/escola-secundaria-do-monte-da-caparica/}{High School of Monte de Caparica})}{June 2012 -- July 2012}{\hspace{0.2em}\href{https://goo.gl/maps/SWkeEYMuKXT2}{Monte de Caparica, Setúbal, PT}}{\href{https://www.almadaforma.net/}{https://www.almadaforma.net/}}{}{}{}{}
+\begin{itemize}
+\item Craftworks and handicrafts (Social Initiatives from \href{https://www.aecaparica.pt/escolas/escolas/escola-secundaria-do-monte-da-caparica/}{High School of Monte de Caparica} and \href{http://www.m-almada.pt/xportal/xmain?xpid=cmav2}{Municipal Council of Almada})
+\item Management of documents (Certifications and Diplomas of some students that frequented some courses of the \href{https://www.almadaforma.net/}{AlmadaForma}'s Training Center in \href{https://www.aecaparica.pt/escolas/escolas/escola-secundaria-do-monte-da-caparica/}{High School of Monte de Caparica}
+\end{itemize}
+
+\divider
+
+\clearpage
+
+\cvsection[page8sidebar]{\faSoccerBallO\hspace{0.5em}Sports}
+
+\cvevent{Gym \& Bodybuilding/MMA \& BJJ Training Classes}{\href{https://www.foxgym.pt/}{Fox Gym}/\href{https://www.fpjjb.com/gfteamparanhos/}{GFTeam Porto (Paranhos)}}{October 2018 -- October 2018}{Marquês, Porto, PT}{\href{https://www.foxgym.pt/}{https://www.foxgym.pt/}}{\href{http://www.gfteam.site/}{http://www.gfteam.site/}\hspace{2em} \faGlobe\hspace{0.5em}\href{https://www.fpjjb.com/gfteamparanhos/}{https://www.fpjjb.com/gfteamparanhos/}}{}{}{}
+\begin{itemize}
+\item Gym, bodybuilding, fitness and weight training
+\item Mixed Martial Arts \& Brazilian Jiu-Jitsu training classes supervised by Prof. Alexsandro Almeida "Leko" (BJJ Black Belt Graduated)
+\end{itemize}
+
+\divider
+
+\cvevent{Gym \& Bodybuilding}{\href{https://www.ginasiosuperolimpia.pt/}{Ginásio Super Olímpia}}{September 2015 -- November 2015}{Laranjeiro, Setúbal, PT}{\href{https://www.ginasiosuperolimpia.pt/}{https://www.ginasiosuperolimpia.pt/}}{}{}{}{}
+\begin{itemize}
+\item Gym, bodybuilding, fitness and weight training
+\end{itemize}
+
+\divider
+
+\cvevent{Gym \& Bodybuilding}{Ginásio Transformer}{October 2011 -- December 2011}{Almada, Setúbal, PT}{}{}{}{}{}
+\begin{itemize}
+\item Gym, bodybuilding, fitness and weight training
+\end{itemize}
+
+\divider
+
+\cvevent{Soccer/Football}{Monte de Caparica Atlético Clube (MCAC)}{January 2010 -- October 2010}{Monte de Caparica, Setúbal, PT}{}{}{}{}{}
+\begin{itemize}
+\item Goalkeeper and central back at Junior's team squad
+\item Football Association of Setúbal's 2nd League Complementary Tournament for Juniors A/Sub 19 players
+\end{itemize}
+
+\divider
+
+\cvevent{Gym \& Bodybuilding}{Girassus Fitness Club}{September 2018 -- Present}{Laranjeiro, Setúbal, PT}{}{}{}{}{}
+\begin{itemize}
+\item Gym, bodybuilding, fitness and weight training
+\end{itemize}
+
+\divider
+
+\cvevent{Swimming}{\href{https://www.sfuap.pt/}{Sociedade Filarmónica União Artística Piedense (SFUAP)}}{September 1998 -- May 2002}{Cova da Piedade, Setúbal, PT}{\href{https://www.sfuap.pt/}{https://www.sfuap.pt/}}{}{}{}{}
+\begin{itemize}
+\item Swimming for children by Primary School's recreation centre 
+\end{itemize}
+
+\divider
+
+\clearpage
+
+\cvsection[page9sidebar]{\faCoffee\hspace{0.5em}A Day of My Life}
+
+\wheelchart{1.5cm}{0.5cm}{%
+  20/10em/accent!30/\footnotesize\\[1ex]Sleeping and dreaming,
+  15/9em/accent!60/\footnotesize\\[1ex]Scientific research and developing projects,
+  5/13em/accent!10/\footnotesize\\[1ex]{Gym \& Bodybuilding/MMA \& BJJ training classes},
+  20/15em/accent!40/\footnotesize\\[1ex]Studying and college's projects,
+  5/8em/accent!20/\footnotesize\\[1ex]{Personal photography, design, image edition, fashion, influencer \\and promoting projects/hobbies},
+  30/9em/accent/\footnotesize\\[1ex]College's \\theoretical and \\practical classes,
+  7/8em/accent!60/\footnotesize\\[1ex]Baking pancakes and waffles with Nutella
+}
+
+\divider
+
+\cvsection{\faStar\hspace{0.5em}Awards and Activities}
+
+\begin{itemize}
+\item Organizer of "Desfile do Caloiro 2015" at \href{https://www.fct.unl.pt/}{Faculty of Sciences and Technology, New University of Lisbon (FCT NOVA | FCT-UNL)}
+\item Winner of "Desfile do Caloiro 2013" at \href{https://www.fct.unl.pt/}{Faculty of Sciences and Technology, New University of Lisbon (FCT NOVA | FCT-UNL)}
+\item Vice-winner of "Baile de Finalistas 2013" at \href{https://www.aecaparica.pt/escolas/escolas/escola-secundaria-do-monte-da-caparica/}{High School of Monte de Caparica (ESMC)}
+\end{itemize}
+
+\divider
+
+\clearpage
+
+\cvsection[page10sidebar]{\faCar\hspace{0.5em}Driving License}
+
+\clearpage
+
+\cvsection[page11sidebar]{\faSearch\hspace{0.5em}Scientific Researches}
+
+\cvevent{\href{http://hyrax.dcc.fc.up.pt/}{Hyrax Project}}{\href{http://nova-lincs.di.fct.unl.pt/}{NOVA LINCS (Informatics' Labs at Faculty of Sciences and Technology, New University of Lisbon - Caparica Campus)}}{February 2017 -- January 2018}{Monte de Caparica, Setúbal, PT}{\href{http://hyrax.dcc.fc.up.pt/}{http://hyrax.dcc.fc.up.pt/}}
+{\href{http://nova-lincs.di.fct.unl.pt/}{http://nova-lincs.di.fct.unl.pt/}\hspace{2em} \faGlobe\hspace{0.5em}\href{https://www.fct.unl.pt/}{https://www.fct.unl.pt/}}
+{\href{https://cracs.fc.up.pt/}{https://cracs.fc.up.pt/}\hspace{2em} \faGlobe\hspace{0.5em}\href{https://www.fc.up.pt/fcup/index.php}{https://www.fc.up.pt/fcup/index.php}}
+{\href{http://www.cmuportugal.org/}{http://www.cmuportugal.org/}\hspace{2em} \faGlobe\hspace{0.5em}\href{https://www.cmu.edu/}{https://www.cmu.edu/}}{}
+\begin{itemize}
+\item A 3rd year's scientific research and development project, of the BSc. degree made in \href{https://www.fct.unl.pt/}{FCT NOVA}, done between February 2017 and January 2018. This project it's called \href{http://hyrax.dcc.fc.up.pt/}{Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)}. This project it's based in the context of \href{https://en.wikipedia.org/wiki/Edge_computing}{Edge Computing}. I did this scientific research and development project, representing \href{http://nova-lincs.di.fct.unl.pt/}{NOVA LINCS (Informatics' Labs at Faculty of Sciences and Technology, New University of Lisbon - Caparica Campus)} and under the supervision of \href{https://docentes.fct.unl.pt/p161/}{Prof. Hervé Miguel Paulino}
+\item This project, had also the collaboration of \href{https://www.fc.up.pt/fcup/index.php}{Faculdade de Ciências da Universidade do Porto} (\href{https://cracs.fc.up.pt/}{INESC TEC/CRACS - Centro de Sistemas de Computação Avançada}) and \href{https://www.cmu.edu/}{Carnegie Mellon University's School of Computer Science}
+\item Developed work in the Services' section of the \href{http://hyrax.dcc.fc.up.pt/}{Hyrax Project}, most precisely, developing a data structure (for DiCE section), to be replicated for Mobile and Handheld Devices, in a notion of collaborative network, using Crowd-Sourcing features and shifting all the data processing and information services closer to the final users
+\item \href{https://rubenandrebarreiro.github.io/research-development/hyrax-dice/report-article/hyrax-dice-report-article.pdf}{LaTeX Article/Paper (Portuguese Version)}
+\item \href{https://rubenandrebarreiro.github.io/research-development/hyrax-dice/presentation/hyrax-dice-presentation.pdf}{Final Presentation}
+\end{itemize}
+
+\divider
+
+\cvsection{\faBookmark\hspace{0.5em}Publications}
+
+\nocite{*}
+
+%\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+
+%\divider
+
+%\printbibliography[heading=pubtype,title={\printinfo{\faNewspaperO}{Journal Articles}}, type=article]
+
+%\divider
+
+%\printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
+
+%\divider
+
+\printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Scientific Research Papers}},type=paper]
+
+\divider
+
+%% If the NEXT page doesn't start with a \cvsection but you'd
+%% still like to add a sidebar, then use this command on THIS
+%% page to add it. The optional argument lets you pull up the
+%% sidebar a bit so that it looks aligned with the top of the
+%% main column.
+% \addnextpagesidebar[-1ex]{page3sidebar}
+
+\end{document}
