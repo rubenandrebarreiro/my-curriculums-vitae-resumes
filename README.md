@@ -21,7 +21,11 @@
 
 [![technology used no. 1](https://img.shields.io/badge/built&nbsp;with-tex-red.svg)](https://en.wikipedia.org/wiki/TeX)
 [![technology used no. 2](https://img.shields.io/badge/built&nbsp;with-latex-red.svg)](https://www.latex-project.org/)
-[![software used no. 1](https://img.shields.io/badge/software-overleaf-gold.svg)](https://www.overleaf.com/) 
+[![software used no. 1](https://img.shields.io/badge/software-microsoft&nbsp;word-gold.svg)](https://products.office.com/word)
+
+[![platform used no. 1](https://img.shields.io/badge/platform-overleaf-cyan.svg)](https://www.overleaf.com/) 
+[![platform used no. 2](https://img.shields.io/badge/platform-novo&nbsp;résumé-cyan.svg)](https://www.novoresume.com/)
+[![platform used no. 3](https://img.shields.io/badge/platform-europass-cyan.svg)](https://europass.cedefop.europa.eu/)
 
 [![star this repository](http://githubbadges.com/star.svg?user=rubenandrebarreiro&repo=my-curriculums-vitae-resumes&style=flat)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/stargazers)
 [![fork this repository](http://githubbadges.com/fork.svg?user=rubenandrebarreiro&repo=my-curriculums-vitae-resumes&style=flat)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/fork)
