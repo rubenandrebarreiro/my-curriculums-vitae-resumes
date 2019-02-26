@@ -92,8 +92,7 @@ You can find the following folders presented in the _root_ folder of this reposi
 ```
 Curriculum Vitaes
 ```
-> Here, it's possible to find all my _Curriculum Vitaes_ in [**_TeX_**](https://en.wikipedia.org/wiki/TeX) made in the _platform_ [**_Overleaf_**](https://www.overleaf.com/) and [**_.doc_**](https://products.office.com/word) made with the support of [**_EuroPass_**](https://europass.cedefop.europa.eu/), as also, all the related files. 
-
+> Here, it's possible to find all my _Curriculum Vitaes_ in [**_TeX_**](https://en.wikipedia.org/wiki/TeX) made in the _platform_ [**_Overleaf_**](https://www.overleaf.com/) and [**_.doc_**](https://products.office.com/word) made with the support of [**_EuroPass online tool_**](https://europass.cedefop.europa.eu/), as also, all the related files. 
 ```
 Others
 ```
@@ -102,13 +101,14 @@ Others
 ```
 Resumés
 ```
-> 
+> And here, you can find all my _Resumés_ made with the support of the _online platform_ [**_NovoRésumé_**](https://novoresume.com/) and made in [**_.doc_**](https://products.office.com/word).
 
 
 ## Built with
 * [**_TeX_**](https://en.wikipedia.org/wiki/TeX)
 * [**_LaTeX_**](https://en.wikipedia.org/wiki/LaTeX)
 * [**_Overleaf_**](https://www.overleaf.com/)
+* [**_NovoRésumé_**](https://novoresume.com/)
 
 ## Contributors
 
