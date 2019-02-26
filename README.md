@@ -22,6 +22,7 @@
 [![technology used no. 1](https://img.shields.io/badge/built&nbsp;with-tex-red.svg)](https://en.wikipedia.org/wiki/TeX)
 [![technology used no. 2](https://img.shields.io/badge/built&nbsp;with-latex-red.svg)](https://www.latex-project.org/)
 [![software used no. 1](https://img.shields.io/badge/software-microsoft&nbsp;word-gold.svg)](https://products.office.com/word)
+[![software used no. 2](https://img.shields.io/badge/software-microsoft&nbsp;powerpoint-gold.svg)](https://products.office.com/powerpoint)
 
 [![platform used no. 1](https://img.shields.io/badge/platform-overleaf-cyan.svg)](https://www.overleaf.com/) 
 [![platform used no. 2](https://img.shields.io/badge/platform-novo&nbsp;résumé-cyan.svg)](https://www.novoresume.com/)
@@ -61,8 +62,8 @@ To install and run this application, you will only need:
 * [**_Google Chrome_**](https://www.google.com/chrome/), [**_Mozilla Firefox_**](https://www.mozilla.org/), [**_Internet Explorer_**](https://www.microsoft.com/download/internet-explorer.aspx), [**_Opera_**](https://www.opera.com/) or [**_Safari_**](https://www.apple.com/safari/).
 > Or a **_PDF reader_**, like:
 * [**_Adobe Acrobat Reader DC_**](https://get.adobe.com/reader/).
-> A **_.doc files reader_**, included in [**_Microsoft Office_**](https://www.office.com/), like:
-* [**_Microsoft Word_**](https://products.office.com/word).
+> A **_.doc and .ppt files reader_**, included in [**_Microsoft Office_**](https://www.office.com/), like:
+* [**_Microsoft Word_**](https://products.office.com/word) and [**_Microsoft PowerPoint_**](https://products.office.com/powerpoint).
 > The [**_Git_**](https://git-scm.com/) feature and/or a [**_third-party Git Client based GUI_**](https://git-scm.com/downloads/guis/), like:
 * [**_GitHub Desktop_**](https://desktop.github.com/), [**_GitKraken_**](https://www.gitkraken.com/), [**_SourceTree_**](https://www.sourcetreeapp.com/) or [**_TortoiseGit_**](https://tortoisegit.org/).
 
