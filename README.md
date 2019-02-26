@@ -101,7 +101,7 @@ Curriculum Vitaes
 ```
 Others
 ```
-> 
+> Here, it's possible to find _other important documents_, as also, my _full academic and personal competences_.
 
 ```
 Resumés
