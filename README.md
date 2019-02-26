@@ -34,7 +34,7 @@
 
 
 ## Description
-> A [**_3rd year's project_**](http://www.unl.pt/guia/2018/fct/UNLGI_getCurso?curso=935) of the [**_BSc. degree of Computer Sciences and Engineering_**](https://www.fct.unl.pt/en/education/course/integrated-master-computer-science/) made in [**_FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)_**](https://www.fct.unl.pt/), in the subject of [**_Computer Graphics and Interfaces_**](http://www.unl.pt/guia/2018/fct/UNLGI_getUC?uc=8150). This project was built using [**_HTML (HyperText Markup Language)_**](https://www.w3schools.com/html/), [**_CSS (Cascade Style Sheets)_**](https://www.w3schools.com/css/), [**_JavaScript_**](https://www.w3schools.com/js/) and [**_WebGL (Web Graphics Library)_**](https://get.webgl.org/). The application allows to drive a _Flying Helicopter_ above a city, all using _3D Modelling_ and _3D Objects_. The _Flying Helicopter_ it's drove using the keyboard and you can see all the action of multiple angles, using an _Axonometric Projection_!
+> A simple repository to keep all my _Curriculum Vitaes_, _Resumés_ and _other important documents_. Some of the presented documents in this repository was built using [**_TeX_**](https://en.wikipedia.org/wiki/TeX) and [**_LaTeX_**](https://en.wikipedia.org/wiki/LaTeX), using as support, the _platform_ [**_Overleaf_**](https://www.overleaf.com/)!
 
 ## Screenshots
 
@@ -55,13 +55,17 @@
 To install and run this application, you will only need:
 > A **_Web browser_**, like:
 * [**_Google Chrome_**](https://www.google.com/chrome/), [**_Mozilla Firefox_**](https://www.mozilla.org/), [**_Internet Explorer_**](https://www.microsoft.com/download/internet-explorer.aspx), [**_Opera_**](https://www.opera.com/) or [**_Safari_**](https://www.apple.com/safari/).
+> Or a **_PDF reader_**, like:
+* [**_Adobe Acrobat Reader DC_**](https://get.adobe.com/reader/).
+> A **_.doc files reader_**, included in [**_Microsoft Office_**](https://www.office.com/), like:
+* [**_Microsoft Word_**](https://products.office.com/word).
 > The [**_Git_**](https://git-scm.com/) feature and/or a [**_third-party Git Client based GUI_**](https://git-scm.com/downloads/guis/), like:
 * [**_GitHub Desktop_**](https://desktop.github.com/), [**_GitKraken_**](https://www.gitkraken.com/), [**_SourceTree_**](https://www.sourcetreeapp.com/) or [**_TortoiseGit_**](https://tortoisegit.org/).
 
 ### Installation
 To install this application, you will only need to _download_ or _clone_ this repository and run the application locally:
 
-> You can do it downloading the [**_.zip file_**](https://github.com/rubenandrebarreiro/3d-object-modelling-helicopter/archive/master.zip) in download section of this repository.
+> You can do it downloading the [**_.zip file_**](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/archive/master.zip) in download section of this repository.
 
 > Or instead, by cloning this repository by a [**_Git Client based GUI_**](https://git-scm.com/downloads/guis), using [**_HTTPS_**](https://en.wikipedia.org/wiki/HTTPS) or [**_SSH_**](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol), by one of the following link:
 * [**_HTTPS_**](https://en.wikipedia.org/wiki/HTTPS):
