@@ -39,7 +39,7 @@
 
 
 ## Description
-> A simple repository to keep all my _Curriculum Vitaes_, _Resumés_ and _other important documents_. Some of the presented documents in this repository was built using [**_TeX_**](https://en.wikipedia.org/wiki/TeX) and [**_LaTeX_**](https://en.wikipedia.org/wiki/LaTeX), using as support, the _platform_ [**_Overleaf_**](https://www.overleaf.com/)!
+> A simple repository to keep all my **_Curriculums Vitae_**, **_Resumés_** and **_other important documents_**. Some of the presented documents in this repository was built using [**_TeX_**](https://en.wikipedia.org/wiki/TeX) and [**_LaTeX_**](https://en.wikipedia.org/wiki/LaTeX), using as support, the _online platforms_ [**_Overleaf_**](https://www.overleaf.com/) and [**_NovoRésumé_**](https://www.novoresume.com/)!
 
 ## Screenshots
 
