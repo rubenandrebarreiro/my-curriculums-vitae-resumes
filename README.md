@@ -4,3 +4,128 @@
 ######  My Curriculums Vitae and Resumés - Banner #1
 
 ***
+
+
+## Current Status
+[![contributor for this repository](https://img.shields.io/badge/contributor-rubenandrebarreiro-blue.svg)](https://github.com/rubenandrebarreiro/) [![current version](https://img.shields.io/badge/version-1.0-magenta.svg)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/)
+
+[![status of this version no. 1](https://img.shields.io/badge/status-completed-orange.svg)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/)
+[![status of this version no. 2](https://img.shields.io/badge/status-final-orange.svg)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/)
+[![status of this version no. 3](https://img.shields.io/badge/status-stable-orange.svg)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/)
+[![status of this version no. 4](https://img.shields.io/badge/status-documented-orange.svg)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/)
+
+[![keyword of this version no. 1](https://img.shields.io/badge/keyword-curriculum-brown.svg)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/)
+[![keyword of this version no. 2](https://img.shields.io/badge/keyword-vitae-brown.svg)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/)
+[![keyword of this version no. 3](https://img.shields.io/badge/keyword-resumes-brown.svg)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/)
+[![keyword of this version no. 4](https://img.shields.io/badge/keyword-docs-brown.svg)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/)
+
+[![technology used no. 1](https://img.shields.io/badge/built&nbsp;with-tex-red.svg)](https://en.wikipedia.org/wiki/TeX)
+[![technology used no. 2](https://img.shields.io/badge/built&nbsp;with-latex-red.svg)](https://www.latex-project.org/)
+[![software used no. 1](https://img.shields.io/badge/software-overleaf-gold.svg)](https://www.overleaf.com/) 
+
+[![star this repository](http://githubbadges.com/star.svg?user=rubenandrebarreiro&repo=my-curriculums-vitae-resumes&style=flat)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/stargazers)
+[![fork this repository](http://githubbadges.com/fork.svg?user=rubenandrebarreiro&repo=my-curriculums-vitae-resumes&style=flat)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/fork)
+[![downloads of this repository](https://img.shields.io/github/downloads/rubenandrebarreiro/my-curriculums-vitae-resumes/total.svg)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/archive/master.zip)
+[![price of this project](https://img.shields.io/badge/price-not&nbsp;applicable-success.svg)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/archive/master.zip)
+
+##### Current Progress of the Project
+
+[![current progress of this project](http://progressed.io/bar/100?title=&nbsp;completed&nbsp;)](https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes/) 
+
+
+## Description
+> A [**_3rd year's project_**](http://www.unl.pt/guia/2018/fct/UNLGI_getCurso?curso=935) of the [**_BSc. degree of Computer Sciences and Engineering_**](https://www.fct.unl.pt/en/education/course/integrated-master-computer-science/) made in [**_FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)_**](https://www.fct.unl.pt/), in the subject of [**_Computer Graphics and Interfaces_**](http://www.unl.pt/guia/2018/fct/UNLGI_getUC?uc=8150). This project was built using [**_HTML (HyperText Markup Language)_**](https://www.w3schools.com/html/), [**_CSS (Cascade Style Sheets)_**](https://www.w3schools.com/css/), [**_JavaScript_**](https://www.w3schools.com/js/) and [**_WebGL (Web Graphics Library)_**](https://get.webgl.org/). The application allows to drive a _Flying Helicopter_ above a city, all using _3D Modelling_ and _3D Objects_. The _Flying Helicopter_ it's drove using the keyboard and you can see all the action of multiple angles, using an _Axonometric Projection_!
+
+## Screenshots
+
+![https://raw.githubusercontent.com/rubenandrebarreiro/my-curriculums-vitae-resumes/master/imgs/JPGs/screenshot-1.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/my-curriculums-vitae-resumes/master/imgs/JPGs/screenshot-1.jpg)
+######  My Curriculums Vitae and Resumés - Screenshot #1
+
+***
+
+![https://raw.githubusercontent.com/rubenandrebarreiro/my-curriculums-vitae-resumes/master/imgs/JPGs/screenshot-2.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/my-curriculums-vitae-resumes/master/imgs/JPGs/screenshot-2.jpg)
+######  My Curriculums Vitae and Resumés - Screenshot #2
+
+***
+
+
+## Getting Started
+
+### Prerequisites
+To install and run this application, you will only need:
+> A **_Web browser_**, like:
+* [**_Google Chrome_**](https://www.google.com/chrome/), [**_Mozilla Firefox_**](https://www.mozilla.org/), [**_Internet Explorer_**](https://www.microsoft.com/download/internet-explorer.aspx), [**_Opera_**](https://www.opera.com/) or [**_Safari_**](https://www.apple.com/safari/).
+> The [**_Git_**](https://git-scm.com/) feature and/or a [**_third-party Git Client based GUI_**](https://git-scm.com/downloads/guis/), like:
+* [**_GitHub Desktop_**](https://desktop.github.com/), [**_GitKraken_**](https://www.gitkraken.com/), [**_SourceTree_**](https://www.sourcetreeapp.com/) or [**_TortoiseGit_**](https://tortoisegit.org/).
+
+### Installation
+To install this application, you will only need to _download_ or _clone_ this repository and run the application locally:
+
+> You can do it downloading the [**_.zip file_**](https://github.com/rubenandrebarreiro/3d-object-modelling-helicopter/archive/master.zip) in download section of this repository.
+
+> Or instead, by cloning this repository by a [**_Git Client based GUI_**](https://git-scm.com/downloads/guis), using [**_HTTPS_**](https://en.wikipedia.org/wiki/HTTPS) or [**_SSH_**](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol), by one of the following link:
+* [**_HTTPS_**](https://en.wikipedia.org/wiki/HTTPS):
+```
+https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes.git
+```
+* [**_SSH_**](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol):
+```
+git@github.com:rubenandrebarreiro/my-curriculums-vitae-resumes.git
+```
+
+> Or even, by running one of the following commands in a **_Git Bash Console_**:
+* [**_HTTPS_**](https://en.wikipedia.org/wiki/HTTPS):
+```
+git clone https://github.com/rubenandrebarreiro/my-curriculums-vitae-resumes.git
+```
+* [**_SSH_**](https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol):
+```
+git clone git@github.com:rubenandrebarreiro/my-curriculums-vitae-resumes.git
+```
+
+## After the instalation
+You can find the following folders presented in the _root_ folder of this repository:
+```
+Curriculum Vitaes
+```
+> Here, it's possible to find all my _Curriculum Vitaes_ in [**_TeX_**](https://en.wikipedia.org/wiki/TeX) made in the _platform_ [**_Overleaf_**](https://www.overleaf.com/) and [**_.doc_**](https://products.office.com/word) made with the support of [**_EuroPass_**](https://europass.cedefop.europa.eu/), as also, all the related files. 
+
+```
+Others
+```
+> 
+
+```
+Resumés
+```
+> 
+
+
+## Built with
+* [**_TeX_**](https://en.wikipedia.org/wiki/TeX)
+* [**_LaTeX_**](https://en.wikipedia.org/wiki/LaTeX)
+* [**_Overleaf_**](https://www.overleaf.com/)
+
+## Contributors
+
+> [Rúben André Barreiro](https://github.com/rubenandrebarreiro/)
+
+## Contacts
+
+### Rúben André Barreiro
+#### E-mails
+* [ruben.barreiro.92@gmail.com](mailto:ruben.barreiro.92@gmail.com)
+* [r.barreiro@campus.fct.unl.pt](mailto:r.barreiro@campus.fct.unl.pt)
+* [up201808917@fe.up.pt](mailto:up201808917@fe.up.pt)
+* [up201808917@g.uporto.pt](mailto:up201808917@g.uporto.pt)
+
+## Portfolios/Blogs and Git Hosting/Repository Services
+
+### Rúben André Barreiro
+#### GitHub's Portfolio/Personal Blog
+* [https://rubenandrebarreiro.github.io/](https://rubenandrebarreiro.github.io/)
+
+#### Hosting/Repository Services
+* [https://github.com/rubenandrebarreiro/](https://github.com/rubenandrebarreiro/)
+* [https://gitlab.com/rubenandrebarreiro/](https://gitlab.com/rubenandrebarreiro/)
+* [https://bitbucket.org/rubenandrebarreiro/](https://bitbucket.org/rubenandrebarreiro/)
