@@ -84,6 +84,7 @@
 \newcommand{\githubsymbol}{\faGithub}
 \newcommand{\gitlabsymbol}{\faGitlab}
 \newcommand{\bitbucketsymbol}{\faBitbucket}
+\newcommand{\windowssymbol}{\faWindows}
 \newcommand{\academiasymbol}{\aiAcademia}
 \newcommand{\mathoverflowsymbol}{\aiMathOverflow}
 \newcommand{\mendeleysymbol}{\aiMendeley}
@@ -114,6 +115,7 @@
 \newcommand{\behance}[1]{\printinfo{\behancesymbol}{#1}}
 \newcommand{\github}[1]{\printinfo{\githubsymbol}{#1}}
 \newcommand{\gitlab}[1]{\printinfo{\gitlabsymbol}{#1}}
+\newcommand{\windows}[1]{\printinfo{\windowssymbol}{#1}}
 \newcommand{\bitbucket}[1]{\printinfo{\bitbucketsymbol}{#1}}
 \newcommand{\academia}[1]{\printinfo{\academiasymbol}{#1}}
 \newcommand{\mathoverflow}[1]{\printinfo{\mathoverflowsymbol}{#1}}
